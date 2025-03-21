@@ -1,8 +1,8 @@
 import { createBareServer } from "@tomphttp/bare-server-node";
 import express from "express";
 import { createServer } from "node:http";
-import { publicPath } from "ultraviolet-static";
-import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
+import { publicPath } from "waffle-proxy-static";  // Changed from ultraviolet-static to waffle-proxy-static
+import { uvPath } from "@titaniumnetwork-dev/waffle-proxy";  // Changed from ultraviolet to waffle-proxy
 import { join } from "node:path";
 import { hostname } from "node:os";
 
